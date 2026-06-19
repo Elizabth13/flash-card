@@ -1,0 +1,32 @@
+*{
+box-sizing: border-box;
+margin: 2;
+padding: 1;
+}
+.cabecalho {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 25px;
+.cabecalho-link {
+color: #dbdeff;
+text-decoration: none;
+}
+} h1 {
+color: #000000;
+font-size: 50px;
+}
+body {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+background-color: #d6faff;
+}
+main {
+flex: 1;
+}
+footer {
+background-color: #b7f4f8;
+padding: 15px 25px;
+color: #000000;
+}
